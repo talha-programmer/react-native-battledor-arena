@@ -1,19 +1,6 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import Navigator  from "./app/routes/HomeStack";
+import Navigator from "./app/routes/HomeStack";
 
 export default function App() {
-  return (
-    <Navigator/>
-  );
+  return <Navigator />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});
